@@ -1,0 +1,23 @@
+.container{
+
+    margin: 0 auto;
+    width: 960px;
+    
+}
+
+.bloco{
+
+    background-color: white;
+    border-color: #CCC #999 #CCC #999;
+    border: 1px solid;
+    margin-top: 20px;
+    padding: 10px;
+
+}
+
+.bloco img{
+
+    border: 1px solid #999;
+    margin: 10px 10px 0 0;
+
+}
