@@ -1,16 +1,82 @@
-.container {
-    margin: 0 auto;
-    width: 900px;
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@100&display=swap');
+
+@font-face {
+    font-family: OpenSans;
+    src: url("../fonts/OpenSans-Bold.ttf");
+    font-size: 1em;
+} 
+
+body{
+
+    font-family: Georama;
+    line-height: 1.6;
 
 }
-.bloco {
-    background-color: cyan;
-    border-color: rgb(7, 64, 82);
-    border: 2px solid;
-    margin-top: 20px;
-    padding: 10px;
+
+.container{
+
+    margin: 0 auto;
+    width: 1000px;
+
 }
-.bloco img {
-    border: 1px solid cyan ;
-    margin: 10px 10px 0 0 ;
+
+.titulo{
+
+    background-color: firebrick
+    
+}
+
+
+
+.bloco{
+
+    background-color: #fff;
+    border-color: #CCC #999 #CCC #999;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    padding: 10px
+
+}
+
+.bloco img{
+
+    border: 1px solid rgb(51, 7, 7);
+    margin: 10px 10px 0 0;
+    padding: 1px;
+
+}
+
+.bloco a{
+
+    color: #3471EB;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+.bloco a:hover{
+
+    color: #34b4eb;
+    text-decoration: underline;
+
+}
+
+.bloco img{
+
+    border: 1px solid #999;
+    float: left;
+    margin: 10px 10px 0 0;
+    padding: 1px;
+
+}
+
+html{
+    background: url(kit-6-livros-after-anna-todd-frete-gratis-D_NQ_NP_842999-MLB26706924345_012018-F.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.clear{
+
+    clear: both;
+    
 }
