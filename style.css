@@ -1,0 +1,16 @@
+.container {
+    margin: 0 auto;
+    width: 900px;
+
+}
+.bloco {
+    background-color: cyan;
+    border-color: rgb(7, 64, 82);
+    border: 2px solid;
+    margin-top: 20px;
+    padding: 10px;
+}
+.bloco img {
+    border: 1px solid cyan ;
+    margin: 10px 10px 0 0 ;
+}
