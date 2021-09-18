@@ -8,21 +8,22 @@
 
 body{
 
-    font-family: Georama;
-    line-height: 1.6;
-
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+line-height: 1.6;
 }
 
 .container{
 
     margin: 0 auto;
-    width: 1000px;
+    width: 960px;
+
 
 }
 
 .titulo{
 
-    background-color: firebrick
+    background-color: floralwhite;
+    padding: 10px;
     
 }
 
@@ -30,28 +31,26 @@ body{
 
 .bloco{
 
-    background-color: #fff;
-    border-color: #CCC #999 #CCC #999;
-    border: 1px solid #ccc;
-    margin-top: 30px;
-    padding: 20px;
+  background-color: rgb(10, 65, 75);
+  border-color: aliceblue #999 #34b4eb;
+  border: 1px solid #34b4eb;
+  margin-top: 20px;
+  padding: 10px;
 
 }
 
 .bloco img{
 
-    border: 1px solid rgb(51, 7, 7);
+    border: 1px solid #999;
     margin: 10px 10px 0 0;
-    padding: 1px;
-
+padding: 2px;
 }
 
 .bloco a{
 
-    color: #3471EB;
+    color: #34b4eb;
     font-weight: bold;
-    text-decoration: none;
-
+text-decoration: none;
 }
 
 .bloco a:hover{
@@ -66,7 +65,7 @@ body{
     border: 1px solid #999;
     float: left;
     margin: 10px 10px 0 0;
-    padding: 1px;
+    padding: 2px;
 
 }
 
