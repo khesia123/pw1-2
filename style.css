@@ -1,21 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Georama:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?fily=Georama:wght@100&display=swap');
+
 
 @font-face {
     font-family: OpenSans;
-    src: url("../fonts/OpenSans-Bold.ttf");
+    src: url("../fnts/OpenSans-Bold.ttf");
     font-size: 1em;
 } 
 
 body{
 
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-line-height: 1.6;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 2.0;
 }
 
 .container{
 
     margin: 0 auto;
-    width: 960px;
+    width: 980px;
 
 
 }
@@ -23,7 +24,7 @@ line-height: 1.6;
 .titulo{
 
     background-color: floralwhite;
-    padding: 10px;
+    
     
 }
 
